@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		466AFFEC1CEB8BA1006FF62A /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466AFFEB1CEB8BA1006FF62A /* Direction.swift */; };
-		466AFFEE1CEB8CD6006FF62A /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466AFFED1CEB8CD6006FF62A /* ViewManager.swift */; };
-		466AFFF01CEB8CEB006FF62A /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466AFFEF1CEB8CEB006FF62A /* Scheduler.swift */; };
-		46C0F0351C68AC90004BE1B3 /* ZLSwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C0F0341C68AC90004BE1B3 /* ZLSwipeableView.swift */; };
+		1687F24F1DC0AA2C00A2EF41 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1687F24B1DC0AA2C00A2EF41 /* Direction.swift */; };
+		1687F2501DC0AA2C00A2EF41 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1687F24C1DC0AA2C00A2EF41 /* Scheduler.swift */; };
+		1687F2511DC0AA2C00A2EF41 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1687F24D1DC0AA2C00A2EF41 /* ViewManager.swift */; };
+		1687F2521DC0AA2C00A2EF41 /* ZLSwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1687F24E1DC0AA2C00A2EF41 /* ZLSwipeableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1687F24B1DC0AA2C00A2EF41 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		1687F24C1DC0AA2C00A2EF41 /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		1687F24D1DC0AA2C00A2EF41 /* ViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		1687F24E1DC0AA2C00A2EF41 /* ZLSwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSwipeableView.swift; sourceTree = "<group>"; };
 		460B72511B76D3E600BB5ED8 /* ZLSwipeableViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLSwipeableViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		466AFFEB1CEB8BA1006FF62A /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = SOURCE_ROOT; };
-		466AFFED1CEB8CD6006FF62A /* ViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = SOURCE_ROOT; };
-		466AFFEF1CEB8CEB006FF62A /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = SOURCE_ROOT; };
-		46C0F0341C68AC90004BE1B3 /* ZLSwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSwipeableView.swift; sourceTree = SOURCE_ROOT; };
 		46C0F0361C68ACA1004BE1B3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -33,9 +33,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1687F24A1DC0AA2C00A2EF41 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1687F24B1DC0AA2C00A2EF41 /* Direction.swift */,
+				1687F24C1DC0AA2C00A2EF41 /* Scheduler.swift */,
+				1687F24D1DC0AA2C00A2EF41 /* ViewManager.swift */,
+				1687F24E1DC0AA2C00A2EF41 /* ZLSwipeableView.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
 		460B72471B76D3E600BB5ED8 = {
 			isa = PBXGroup;
 			children = (
+				1687F24A1DC0AA2C00A2EF41 /* Sources */,
 				460B72531B76D3E600BB5ED8 /* ZLSwipeableViewSwift */,
 				460B72521B76D3E600BB5ED8 /* Products */,
 			);
@@ -52,10 +65,6 @@
 		460B72531B76D3E600BB5ED8 /* ZLSwipeableViewSwift */ = {
 			isa = PBXGroup;
 			children = (
-				46C0F0341C68AC90004BE1B3 /* ZLSwipeableView.swift */,
-				466AFFEB1CEB8BA1006FF62A /* Direction.swift */,
-				466AFFED1CEB8CD6006FF62A /* ViewManager.swift */,
-				466AFFEF1CEB8CEB006FF62A /* Scheduler.swift */,
 				46C0F0361C68ACA1004BE1B3 /* Info.plist */,
 			);
 			path = ZLSwipeableViewSwift;
@@ -104,6 +113,7 @@
 				TargetAttributes = {
 					460B72501B76D3E600BB5ED8 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -139,10 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466AFFEE1CEB8CD6006FF62A /* ViewManager.swift in Sources */,
-				466AFFF01CEB8CEB006FF62A /* Scheduler.swift in Sources */,
-				46C0F0351C68AC90004BE1B3 /* ZLSwipeableView.swift in Sources */,
-				466AFFEC1CEB8BA1006FF62A /* Direction.swift in Sources */,
+				1687F2501DC0AA2C00A2EF41 /* Scheduler.swift in Sources */,
+				1687F24F1DC0AA2C00A2EF41 /* Direction.swift in Sources */,
+				1687F2521DC0AA2C00A2EF41 /* ZLSwipeableView.swift in Sources */,
+				1687F2511DC0AA2C00A2EF41 /* ViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +263,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -270,6 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tfw.ZLSwipeableViewSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
