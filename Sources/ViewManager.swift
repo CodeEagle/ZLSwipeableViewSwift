@@ -44,7 +44,7 @@ class ViewManager : NSObject {
     fileprivate class ZLPanGestureRecognizer: UIPanGestureRecognizer { }
     fileprivate class ZLTapGestureRecognizer: UITapGestureRecognizer { }
     
-    static fileprivate let anchorViewWidth = CGFloat(1000)
+    static fileprivate let anchorViewWidth = CGFloat(100)
     fileprivate var anchorView = UIView(frame: CGRect(x: 0, y: 0, width: anchorViewWidth, height: anchorViewWidth))
     
     fileprivate var snapBehavior: UISnapBehavior!
